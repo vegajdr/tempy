@@ -1,13 +1,4 @@
 GIT
-  remote: git@github.com:CustomComm/watir-web_scraper.git
-  revision: dbb099f25c95e5dbc5191ee9e5d560c8cc8f2271
-  tag: v0.3.1
-  specs:
-    watir-web_scraper (0.3.1)
-      activesupport (>= 5.0.0, < 7.0.0)
-      watir (~> 6.16)
-
-GIT
   remote: https://github.com/vegajdr/activerecord-query_object.git
   revision: f7969217d81d48368bcf7e7cacefb43f6463f4e1
   specs:
@@ -184,6 +175,8 @@ GEM
     puma (4.3.7)
       nio4r (~> 2.0)
     rack (2.2.3)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -324,9 +317,6 @@ GEM
       equalizer (~> 0.0, >= 0.0.9)
     warden (1.2.9)
       rack (>= 2.0.9)
-    watir (6.17.0)
-      regexp_parser (~> 1.2)
-      selenium-webdriver (~> 3.6)
     web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -374,6 +364,7 @@ DEPENDENCIES
   pry-byebug (~> 3.6)
   pry-rails (~> 0.3.9)
   puma (~> 4.1)
+  rack-cors
   rails (~> 6.0.3, >= 6.0.3.3)
   reek (~> 5.3)
   rolify (~> 5.2)
@@ -391,8 +382,6 @@ DEPENDENCIES
   turbolinks (~> 5)
   tzinfo-data
   vcr (~> 4.0)
-  watir (~> 6.16, >= 6.16.5)
-  watir-web_scraper!
   web-console (>= 3.3.0)
   webdrivers
   webmock (~> 3.5, >= 3.5.1)

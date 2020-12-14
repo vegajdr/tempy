@@ -1,0 +1,91 @@
+[{
+  "id": 360630,
+  "name": "Cairo",
+  "state": "",
+  "country": "EG",
+  "coord": {
+    "lon": 31.24967,
+    "lat": 30.06263
+  }
+}, {
+  "id": 524894,
+  "name": "Moscow",
+  "state": "",
+  "country": "RU",
+  "coord": {
+    "lon": 37.606667,
+    "lat": 55.761665
+  }
+}, {
+  "id": 1796236,
+  "name": "Shanghai",
+  "state": "",
+  "country": "CN",
+  "coord": {
+    "lon": 121.458061,
+    "lat": 31.222219
+  }
+}, {
+  "id": 1816670,
+  "name": "Beijing",
+  "state": "",
+  "country": "CN",
+  "coord": {
+    "lon": 116.397232,
+    "lat": 39.907501
+  }
+}, {
+  "id": 2267057,
+  "name": "Lisbon",
+  "state": "",
+  "country": "PT",
+  "coord": {
+    "lon": -9.13333,
+    "lat": 38.716671
+  }
+}, {
+  "id": 2643743,
+  "name": "London",
+  "state": "",
+  "country": "GB",
+  "coord": {
+    "lon": -0.12574,
+    "lat": 51.50853
+  }
+}, {
+  "id": 2964574,
+  "name": "Dublin",
+  "state": "",
+  "country": "IE",
+  "coord": {
+    "lon": -6.26719,
+    "lat": 53.34399
+  }
+}, {
+  "id": 3117735,
+  "name": "Madrid",
+  "state": "",
+  "country": "ES",
+  "coord": {
+    "lon": -3.70256,
+    "lat": 40.4165
+  }
+}, {
+  "id": 3128760,
+  "name": "Barcelona",
+  "state": "",
+  "country": "ES",
+  "coord": {
+    "lon": 2.15899,
+    "lat": 41.38879
+  }
+}, {
+  "id": 5128638,
+  "name": "New York",
+  "state": "NY",
+  "country": "US",
+  "coord": {
+    "lon": -75.499901,
+    "lat": 43.000351
+  }
+}]
