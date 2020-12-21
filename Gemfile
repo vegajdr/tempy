@@ -30,6 +30,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'faraday'
 
+gem 'rack-cors', require: 'rack/cors'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -59,8 +61,6 @@ gem 'pry-rails', '~> 0.3.9'
 gem 'cancancan', '~> 3.0'
 gem 'rolify', '~> 5.2'
 gem 'panko_serializer', '~> 0.7.3'
-gem 'watir', '~> 6.16', '>= 6.16.5'
-gem 'watir-web_scraper', git: 'git@github.com:CustomComm/watir-web_scraper.git', tag: 'v0.3.1'
 gem 'interactor', '~> 3.1', '>= 3.1.1'
 gem 'devise', '~> 4.7.1'
 gem 'activerecord-query_object', github: 'vegajdr/activerecord-query_object'
